@@ -1,6 +1,6 @@
 Name:		plzip
 Summary:	Multi-threaded LZMA archiver
-Version:	0.8
+Version:	0.9
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
@@ -37,8 +37,10 @@ big enough, plzip can use hundreds of processors.
 %{_infodir}/plzip.info*
 %doc AUTHORS ChangeLog NEWS README
 
+%if %{mdvver} < 201200
 %post
 %_install_info
 
 %postun
 %_remove_install_info
+%endif
