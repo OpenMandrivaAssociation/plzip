@@ -44,3 +44,14 @@ big enough, plzip can use hundreds of processors.
 %postun
 %_remove_install_info
 %endif
+
+
+%changelog
+* Wed Apr 18 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.9-1
++ Revision: 791719
+- update to 0.9
+
+* Tue Mar 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.8-1
++ Revision: 784548
+- imported package plzip
+
