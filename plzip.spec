@@ -1,7 +1,7 @@
 Name:		plzip
 Summary:	Multi-threaded LZMA archiver
 Version:	0.9
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Archiving/Compression
 URL:		http://www.nongnu.org/lzip/plzip.html
