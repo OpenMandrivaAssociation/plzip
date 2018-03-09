@@ -1,6 +1,6 @@
 Name:		plzip
 Summary:	Multi-threaded LZMA archiver
-Version:	1.6
+Version:	1.7
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
@@ -26,10 +26,10 @@ big enough, plzip can use hundreds of processors.
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/plzip
