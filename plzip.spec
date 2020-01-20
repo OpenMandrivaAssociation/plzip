@@ -1,6 +1,6 @@
 Name:		plzip
 Summary:	Multi-threaded LZMA archiver
-Version:	1.7
+Version:	1.8
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
@@ -22,7 +22,7 @@ for distribution of big software files and large scale data archiving. On files
 big enough, plzip can use hundreds of processors.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
