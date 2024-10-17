@@ -4,7 +4,7 @@ Version:	1.8
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
-URL:		http://www.nongnu.org/lzip/plzip.html
+URL:		https://www.nongnu.org/lzip/plzip.html
 Source0:	http://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.gz
 BuildRequires:	lzip
 BuildRequires:	lzlib-devel
